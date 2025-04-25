@@ -16,7 +16,7 @@ Add the following to your `Package.swift` file:
 .package(url: "https://github.com/dropbox/RxPublished.git", .upToNextMajor(from: "1.0.0")),
 ```
 
-Example usage:
+## Usage
 
 ```swift
 @RxPublished private(set) var example: String = "hello world"
