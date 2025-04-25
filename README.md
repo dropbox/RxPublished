@@ -1,6 +1,6 @@
 # RxPublished
 
-`@RxPublished` is a drop-in replacement for Combine's `@Published` and is intended to be used in ObservableObject View Models.
+`@RxPublished` is a drop-in replacement for Combine's `@Published` and is intended to be used in ObservableObject View Models. Under the hood it utilizes [RxSwift](https://github.com/ReactiveX/RxSwift) instead of Combine, allowing pre-existing RxSwift code to be used more seamlessly in SwiftUI.
 
  Its projected value (using `$` operator like `$example`) provides access to an observable stream, mirroring the functionality of the stock `@Published`. Usage within SwiftUI Bindings also works as expected (like for TextField).
 
